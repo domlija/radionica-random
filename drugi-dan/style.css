@@ -1,0 +1,43 @@
+div {
+    width: 40%;
+    min-height: 150px;
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: black;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em 2em 2em 1em;
+
+}
+
+div .backside {
+    border-color: red;
+}
+
+.inside {
+    display: inline-block;
+    border-color: blue;
+    border-width: 1px 2px 3px 4px;
+    box-sizing: border-box;
+}
+
+h1 + p {
+    background-color: cornflowerblue;
+}
+
+p {
+    background-color: aliceblue;
+    font-size: x-large;
+}
+
+#specijalac {
+    background-color: maroon;
+}
+
+
+ul.klasa > *  {
+    color: blue;
+    font-size: larger;
+}
+
